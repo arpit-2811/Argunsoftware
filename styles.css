@@ -1600,3 +1600,115 @@ img, video, iframe { max-width: 100%; height: auto; }
   .hero-section { padding: 6rem 0 7rem; }
   .product-hero-section { padding: 5rem 0 6rem; }
 }
+
+/* Reviews / Testimonials Section */
+.section-reviews {
+  background-color: var(--color-white);
+}
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .reviews-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .reviews-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.review-card {
+  background-color: var(--color-bg-offwhite);
+  border: 1px solid var(--color-border);
+  border-radius: 0.625rem;
+  padding: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.review-card:hover {
+  border-color: var(--color-electric);
+  transform: translateY(-2px);
+}
+
+.review-card.featured-review {
+  border-color: #BFDBFE;
+  background-color: #F8FAFC;
+}
+
+@media (min-width: 1024px) {
+  .review-card.featured-review {
+    grid-column: span 2;
+  }
+}
+
+.review-stars {
+  display: flex;
+  gap: 0.25rem;
+  color: #F59E0B;
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.review-text {
+  font-size: 0.875rem;
+  color: var(--color-charcoal);
+  line-height: 1.65;
+  font-style: italic;
+  margin-bottom: 1.25rem;
+}
+
+.review-author-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  border-top: 1px solid var(--color-border);
+  padding-top: 1rem;
+  margin-top: auto;
+}
+
+.review-author-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.review-client-name {
+  font-size: 0.9375rem;
+  font-weight: 700;
+  color: var(--color-navy);
+}
+
+.review-client-meta {
+  font-size: 0.75rem;
+  color: var(--color-muted);
+  margin-top: 0.125rem;
+}
+
+.review-badge {
+  display: inline-block;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  padding: 0.25rem 0.625rem;
+  border-radius: 0.25rem;
+  background-color: #EFF6FF;
+  color: var(--color-electric);
+  border: 1px solid #DBEAFE;
+  white-space: nowrap;
+}
+
+.ca-approved-badge {
+  background-color: #ECFDF5;
+  color: #065F46;
+  border-color: #A7F3D0;
+}
