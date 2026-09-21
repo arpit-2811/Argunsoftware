@@ -40,6 +40,7 @@ export default function Footer() {
           <div className="md:col-span-3 space-y-2 text-xs text-slate-300">
             <div className="font-semibold text-white uppercase tracking-wider mb-2">Contact</div>
             <div>Phone: <a href="tel:7091276451" className="text-white hover:text-electric transition-colors">+91 70912 76451</a></div>
+            <div>Email: <a href="mailto:argunsoftwaresolution@gmail.com" className="text-white hover:text-electric transition-colors">argunsoftwaresolution@gmail.com</a></div>
             <div className="leading-normal">
               Address: Rajhwahi Colony, Between Arya Petroleum Pump & Lakhpatiya More, Gopalganj, Bihar – 841428
             </div>
