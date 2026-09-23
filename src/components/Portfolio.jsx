@@ -57,6 +57,14 @@ export const portfolioProjects = [
     location: 'New Delhi, India',
     description: 'Modern pharmaceutical and nutraceutical web platform showcasing Mangovita™ multivitamin syrups, FSSAI compliance, ISO certifications, product specifications, and high-performance cloud deployment.',
     deliverables: ['Web Development', 'Cloud Deployment', 'Product Showcase', 'Brand SEO']
+  },
+  {
+    title: 'Creatix India',
+    url: 'https://www.creatixindia.com/',
+    category: 'Digital Agency • Creative Media',
+    location: 'Kolkata, West Bengal',
+    description: 'High-impact digital marketing, creative media, and brand agency web platform built with modern Next.js architecture, interactive UI animations, SEO optimization, and high-speed cloud hosting.',
+    deliverables: ['Web Development', 'Cloud Deployment', 'Agency SEO', 'Interactive UI/UX']
   }
 ];
 
