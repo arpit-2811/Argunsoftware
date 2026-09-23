@@ -1412,6 +1412,17 @@ button, input, textarea {
   font-size: 0.8125rem;
   font-weight: 500;
   color: var(--color-charcoal);
+  text-decoration: none;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.city-chip:hover {
+  background-color: #EFF6FF;
+  border-color: var(--color-electric);
+  color: var(--color-electric);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(30, 99, 214, 0.12);
 }
 
 .city-chip::before {
