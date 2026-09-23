@@ -25,28 +25,14 @@ export default function Hero() {
           Custom software, websites, and apps for businesses across Bihar.
         </p>
 
-        {/* Action Buttons */}
-        <div className="pt-4 flex flex-wrap items-center justify-center gap-3">
+        {/* Single Primary Action Button */}
+        <div className="pt-4">
           <a
             href="#products"
             onClick={handleScrollToProducts}
             className="inline-block bg-electric hover:bg-electric-hover text-white text-sm sm:text-base font-semibold px-6 py-3 rounded-md transition-colors"
           >
             View Our Products
-          </a>
-          <a
-            href="tel:7091276451"
-            className="inline-flex items-center gap-2 bg-navy hover:bg-slate-800 text-white text-sm sm:text-base font-semibold px-5 py-3 rounded-md transition-colors"
-          >
-            📞 Direct Call
-          </a>
-          <a
-            href="https://wa.me/917091276451?text=Hi%20Argun%20Software%20Solutions,%20I%20would%20like%20to%20inquire%20about%20your%20software%20and%20services."
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white text-sm sm:text-base font-semibold px-5 py-3 rounded-md transition-colors"
-          >
-            💬 WhatsApp Us
           </a>
         </div>
 

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Logo from './Logo';
-import { Menu, X, Phone } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -50,49 +50,25 @@ export default function Header() {
             ))}
           </nav>
 
-          {/* Desktop Direct Call, WhatsApp & CTA Button */}
-          <div className="hidden md:flex items-center gap-2.5">
-            <a
-              href="tel:7091276451"
-              className="inline-flex items-center gap-1.5 bg-blue-50 hover:bg-blue-100 text-navy text-xs font-semibold px-3 py-2 rounded-md border border-blue-200 transition-colors"
-              title="Direct Call: +91 70912 76451"
-            >
-              <Phone className="w-3.5 h-3.5 text-electric" />
-              <span>Call Us</span>
-            </a>
-            <a
-              href="https://wa.me/917091276451?text=Hi%20Argun%20Software%20Solutions,%20I%20would%20like%20to%20inquire%20about%20your%20software%20and%20services."
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 bg-emerald-50 hover:bg-emerald-100 text-emerald-800 text-xs font-semibold px-3 py-2 rounded-md border border-emerald-200 transition-colors"
-              title="Chat on WhatsApp"
-            >
-              <span>💬 WhatsApp</span>
-            </a>
+          {/* Single Electric Blue CTA Button */}
+          <div className="hidden md:flex items-center">
             <a
               href="#contact"
               onClick={(e) => handleNavClick(e, '#contact')}
-              className="bg-electric hover:bg-electric-hover text-white text-xs font-semibold px-4 py-2 rounded-md transition-colors"
+              className="bg-electric hover:bg-electric-hover text-white text-sm font-semibold px-4.5 py-2 rounded-md transition-colors"
             >
               Get in Touch
             </a>
           </div>
 
           {/* Mobile Menu Toggle */}
-          <div className="md:hidden flex items-center gap-2">
+          <div className="md:hidden flex items-center gap-3">
             <a
-              href="tel:7091276451"
-              className="bg-blue-50 text-navy border border-blue-200 text-xs font-bold px-2.5 py-1.5 rounded flex items-center gap-1"
+              href="#contact"
+              onClick={(e) => handleNavClick(e, '#contact')}
+              className="bg-electric text-white text-xs font-semibold px-3 py-1.5 rounded"
             >
-              <Phone className="w-3.5 h-3.5 text-electric" /> Call
-            </a>
-            <a
-              href="https://wa.me/917091276451?text=Hi%20Argun%20Software%20Solutions,%20I%20would%20like%20to%20inquire%20about%20your%20software%20and%20services."
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-emerald-500 text-white text-xs font-bold px-2.5 py-1.5 rounded"
-            >
-              WhatsApp
+              Contact
             </a>
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -119,22 +95,6 @@ export default function Header() {
               {link.name}
             </a>
           ))}
-          <div className="pt-2 flex flex-col gap-2">
-            <a
-              href="tel:7091276451"
-              className="w-full text-center bg-navy hover:bg-slate-800 text-white text-xs font-semibold py-2.5 rounded-md flex items-center justify-center gap-2"
-            >
-              <Phone className="w-4 h-4" /> Direct Call: +91 70912 76451
-            </a>
-            <a
-              href="https://wa.me/917091276451?text=Hi%20Argun%20Software%20Solutions,%20I%20would%20like%20to%20inquire%20about%20your%20software%20and%20services."
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-full text-center bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-semibold py-2.5 rounded-md flex items-center justify-center gap-2"
-            >
-              💬 Chat on WhatsApp
-            </a>
-          </div>
         </div>
       )}
     </header>
