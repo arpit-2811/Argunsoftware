@@ -264,6 +264,42 @@ const cities = [
     commercialZones: 'Golghar, Medical College Road, Bank Road, Asuran Chowk, GIDA Industrial Area, Mohaddipur, and Rustampur',
     industryFocus: 'Super-specialty medical centers, commercial wholesale traders, automobile dealerships & bodyshops, and coaching academies',
     localContext: 'As Eastern UP’s primary healthcare and commercial capital, Gorakhpur demands enterprise-grade technology. Argun Software Solutions has delivered live web platforms for premier medical centers in Gorakhpur, combining modern design with targeted regional SEO.'
+  },
+  {
+    slug: 'software-company-in-kushinagar.html',
+    name: 'Kushinagar (UP)',
+    shortName: 'Kushinagar',
+    fullName: 'Kushinagar, Uttar Pradesh',
+    district: 'Kushinagar District',
+    state: 'Uttar Pradesh',
+    title: 'Best Software Company in Kushinagar | Argun Software Solutions',
+    metaDesc: 'Looking for the best software company in Kushinagar, UP? Argun Software Solutions provides GST billing software, auto workshop software, loan management systems, and websites with direct on-site support in Kushinagar.',
+    keywords: 'best software company in kushinagar, software company in kushinagar, billing software kushinagar, website development in kushinagar, it company kushinagar up, software company near me kushinagar',
+    h1: 'Best Software Company in Kushinagar',
+    heroSub: 'Premier software company and technology partner for Kushinagar and the Indo-Nepal trade corridor. Custom GST billing software, garage management systems, and commercial web platforms with localized support.',
+    badge: '#1 Software Company in Kushinagar, UP',
+    geo: { lat: 26.7408, lng: 83.8887 },
+    commercialZones: 'Padrauna, Kasia, Tamkuhi Raj, Fazilnagar, Hata, Ramkola, and Sewarhi border market',
+    industryFocus: 'Hospitality & tourism, agro-processing, wholesale merchandise, auto repair workshops, and local lenders',
+    localContext: 'Strategically situated near the Gopalganj border, businesses across Padrauna, Kasia, Tamkuhi Raj, and Fazilnagar trust Argun Software Solutions for lightning-fast GST billing, digital job cards, and reliable on-ground technical support.'
+  },
+  {
+    slug: 'software-company-in-deoria.html',
+    name: 'Deoria (UP)',
+    shortName: 'Deoria',
+    fullName: 'Deoria, Uttar Pradesh',
+    district: 'Deoria District',
+    state: 'Uttar Pradesh',
+    title: 'Best Software Company in Deoria | Argun Software Solutions',
+    metaDesc: 'Best software company in Deoria, UP. Argun Software Solutions delivers custom billing software, auto garage management systems, lending software, and high-performance websites with on-site training in Deoria.',
+    keywords: 'best software company in deoria, software company in deoria, website development deoria, billing software deoria, it company deoria up, software company near me deoria',
+    h1: 'Best Software Company in Deoria',
+    heroSub: 'Accelerate your business with automated GST billing tools, auto workshop management software, loan tracking systems, and commercial websites built for entrepreneurs across Deoria district.',
+    badge: '#1 Software Company in Deoria, UP',
+    geo: { lat: 26.5024, lng: 83.7791 },
+    commercialZones: 'Deoria Sadar, Malviya Road, Raghav Nagar, Bhatpar Rani, Salempur, Barhaj, and Rudrapur',
+    industryFocus: 'Retail trade & supermarkets, automobile repair bodyshops, medical diagnostic centers, and micro-finance societies',
+    localContext: 'Directly connecting to Gopalganj and Siwan, commercial traders and workshops across Raghav Nagar, Malviya Road, and Bhatpar Rani rely on Argun Software Solutions for automated inventory, tax compliance, and immediate technical service.'
   }
 ];
 
