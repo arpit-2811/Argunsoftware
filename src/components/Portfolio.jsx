@@ -49,6 +49,14 @@ export const portfolioProjects = [
     location: 'India & International',
     description: 'Dynamic tourism portal presenting holiday itineraries, domestic and international tour packages, instant quote booking workflows, tourism SEO ranking, and Google brand presence.',
     deliverables: ['Web Development', 'Booking Portal', 'Tourism SEO', 'Google Business Profile']
+  },
+  {
+    title: 'Kenas Labs',
+    url: 'https://kenaslabs.com/',
+    category: 'Pharmaceuticals • Nutraceuticals',
+    location: 'New Delhi, India',
+    description: 'Modern pharmaceutical and nutraceutical web platform showcasing Mangovita™ multivitamin syrups, FSSAI compliance, ISO certifications, product specifications, and high-performance cloud deployment.',
+    deliverables: ['Web Development', 'Cloud Deployment', 'Product Showcase', 'Brand SEO']
   }
 ];
 
