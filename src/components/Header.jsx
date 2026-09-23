@@ -9,6 +9,8 @@ export default function Header() {
     { name: 'Home', href: '#home' },
     { name: 'Products', href: '#products' },
     { name: 'Services', href: '#services' },
+    { name: 'Portfolio', href: '#portfolio' },
+    { name: 'Reviews', href: '#reviews' },
     { name: 'About', href: '#about' },
     { name: 'Contact', href: '#contact' },
   ];

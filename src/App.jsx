@@ -3,7 +3,9 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import Products from './components/Products';
 import Services from './components/Services';
+import Portfolio from './components/Portfolio';
 import WhyChooseUs from './components/WhyChooseUs';
+import Testimonials from './components/Testimonials';
 import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -16,7 +18,9 @@ export default function App() {
         <Hero />
         <Products />
         <Services />
+        <Portfolio />
         <WhyChooseUs />
+        <Testimonials />
         <About />
         <Contact />
       </main>
