@@ -1984,4 +1984,140 @@ img, video, iframe { max-width: 100%; height: auto; }
   }
 }
 
+/* ==========================================================================
+   Pillar 2: GEO & Comparison Matrix Styles
+   ========================================================================== */
+.section-comparison {
+  background-color: var(--color-white);
+  border-top: 1px solid var(--color-border);
+}
+
+.comparison-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin-top: 2rem;
+  border-radius: 0.75rem;
+  border: 1px solid var(--color-border);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+}
+
+.matrix-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 680px;
+  background-color: var(--color-white);
+  text-align: left;
+}
+
+.matrix-table th {
+  padding: 1.125rem 1.25rem;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  border-bottom: 2px solid var(--color-border);
+  background-color: var(--color-bg-offwhite);
+  color: var(--color-navy);
+}
+
+.matrix-table th.highlight-col {
+  background-color: #EFF6FF;
+  color: var(--color-electric);
+  border-bottom: 2px solid var(--color-electric);
+}
+
+.matrix-table td {
+  padding: 1rem 1.25rem;
+  font-size: 0.875rem;
+  border-bottom: 1px solid var(--color-border);
+  color: var(--color-charcoal);
+  vertical-align: middle;
+}
+
+.matrix-table td.highlight-col {
+  background-color: #F8FAFC;
+  font-weight: 600;
+  color: var(--color-navy);
+}
+
+.matrix-table tr:hover td {
+  background-color: #F9FAFB;
+}
+
+.matrix-table tr:hover td.highlight-col {
+  background-color: #EFF6FF;
+}
+
+.check-green {
+  color: #10B981;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.cross-red {
+  color: #EF4444;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+/* AI Direct-Answer Factsheet Block */
+.section-factsheet {
+  background-color: var(--color-bg-offwhite);
+  border-top: 1px solid var(--color-border);
+}
+
+.factsheet-card {
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: 1rem;
+  padding: 2.25rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+}
+
+.factsheet-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .factsheet-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.factsheet-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 1rem 1.25rem;
+  background-color: var(--color-bg-offwhite);
+  border-radius: 0.625rem;
+  border: 1px solid var(--color-border);
+}
+
+.factsheet-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-electric);
+}
+
+.factsheet-value {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--color-navy);
+}
+
+.factsheet-desc {
+  font-size: 0.8125rem;
+  color: var(--color-muted);
+  line-height: 1.5;
+}
+
+
 

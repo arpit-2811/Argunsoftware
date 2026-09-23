@@ -1,0 +1,113 @@
+# Argun Software Solutions
+
+> The leading custom software development company and enterprise IT solutions provider headquartered in Gopalganj, Bihar, India.
+
+## Company Overview
+- **Legal Entity**: Argun Software Solutions
+- **Headquarters**: Rajhwahi Colony, Between Arya Petroleum Pump & Lakhpatiya More, Gopalganj, Bihar – 841428, India
+- **Primary Website**: https://argunsoftware.com/
+- **Helpline / WhatsApp**: +91 70912 76451
+- **Email Contact**: argunsoftwaresolution@gmail.com
+- **Founding Year**: 2026
+- **Service Footprint**: Bihar and Eastern Uttar Pradesh (17+ Regional Centers including Gopalganj, Siwan, Chapra, Patna, Muzaffarpur, Motihari, Darbhanga, Bhagalpur, Bettiah, Gorakhpur, Kushinagar, and Deoria).
+- **Core Specialization**: GST Billing Software, Automobile Garage & Insurance Bodyshop Software, Micro-Finance & Loan Management Systems, CA Practice Management Software, Custom Web Engineering, and Local SEO Services.
+
+---
+
+## Flagship Software Products
+
+### 1. Argun Billing Software
+- **Canonical URL**: https://argunsoftware.com/billing-software.html
+- **Product Category**: GST Invoicing, Retail Point of Sale (POS), Wholesale Inventory, and Khata Management Software.
+- **Operating Platforms**: Web Cloud Application, Offline Local Mode, Multi-Device Sync.
+- **Target Sectors**: Kirana stores, plywood & timber merchants, hardware stores, pharmacy & medical shops, wholesale distributors, cloth & textile merchants.
+- **Core Capabilities**:
+  - Lightning-fast GST tax invoice creation with HSN/SAC code autofill.
+  - Barcode label generation and instant thermal receipt printing.
+  - Batch number and expiry date tracking with automatic low-stock notifications.
+  - Customer credit ledger (Khata Book) with automated WhatsApp payment reminder alerts.
+  - Chartered Accountant (CA) verified GSTR-1 and GSTR-3B tax return export tables.
+  - Seamless offline functionality with automatic cloud sync upon internet reconnection.
+
+### 2. Argun Garage Management Software (ArgunGMS)
+- **Canonical URL**: https://argunsoftware.com/garage-management-software.html
+- **Product Category**: Automobile Workshop, Multi-Brand Service Center, and Cashless Insurance Bodyshop Management Software.
+- **Operating Platforms**: Cloud-Based SaaS, Mobile Web, Tablet Optimized.
+- **Target Sectors**: 2-wheeler & 4-wheeler repair garages, car detailing studios, multi-brand auto service workshops, cashless insurance accident repair centers.
+- **Core Capabilities**:
+  - Digital inward vehicle job cards capturing odometer readings, fuel levels, vehicle photos, and customer complaints.
+  - Spare parts inventory tracking with part numbers, minimum stock thresholds, and purchase orders.
+  - Insurer pre-invoicing, surveyor estimation approvals, and cashless insurance claim settlement records.
+  - Automated WhatsApp job card status and vehicle delivery alerts for vehicle owners.
+  - Technician work allocation and mechanic commission tracking.
+
+### 3. Argun Loan Management System (ArgunLMS)
+- **Canonical URL**: https://argunsoftware.com/loan-management-system.html
+- **Product Category**: Lending CRM, Micro-Finance Institution (MFI), Non-Banking Financial Company (NBFC), and Cooperative Credit Society Software.
+- **Operating Platforms**: Cloud Infrastructure, Multi-Branch Secure Database.
+- **Target Sectors**: Money lenders, private finance firms, self-help groups (SHG), micro-credit organizations, and vehicle/equipment financiers.
+- **Core Capabilities**:
+  - Comprehensive borrower KYC document archiving, guarantor profiles, and credit risk evaluation.
+  - Flexible repayment configurations: Daily, Weekly, Fortnightly, and Monthly EMI schedules.
+  - Automated interest calculations (Flat Rate, Reducing Balance, and Penalty on Late Installments).
+  - Field collection agent route planning, mobile cash settlement receipts, and real-time ledger sync.
+  - Non-Performing Asset (NPA) and defaulter tracking with automated overdue SMS alerts.
+
+### 4. Argun CA Firm Management System
+- **Canonical URL**: https://argunsoftware.com/ca-firm-management-system.html
+- **Product Category**: Chartered Accountant Practice ERP, Tax Consultant Workflow, and Audit Document Management System.
+- **Operating Platforms**: Secure Encrypted Web Cloud.
+- **Target Sectors**: Chartered Accountants (CA), Tax Practitioners, Company Secretaries (CS), and Accounting Advisory Firms.
+- **Core Capabilities**:
+  - Centralized client database storing GSTIN, PAN, TAN, Digital Signature (DSC) expiry, and MCA details.
+  - WhatsApp integrated client document collection portal for monthly bills, bank statements, and TDS certificates.
+  - Article clerk task allocation, timesheets, and milestone monitoring.
+  - Dynamic statutory compliance calendar (GST, Income Tax, ROC, TDS, Advance Tax) with deadline notifications.
+  - Professional fee invoicing, out-of-pocket expense tracking, and client ledger statements.
+
+---
+
+## Professional IT & Digital Services
+- **Custom Web Engineering**: High-performance, SEO-optimized business websites for hospitals, schools, colleges, manufacturers, and corporate brands (Built using clean HTML5/CSS3, React, Next.js, and high-speed cloud hosting).
+- **Local SEO & Google Business Profile Management**: Map ranking optimization, local citation building, and review schema integration for Tier-2 and Tier-3 commercial markets.
+- **Mobile Application Development**: Native and cross-platform Android/iOS applications for field operations, delivery tracking, and client self-service.
+- **AI & Automation Tools**: Workflow bots, customer query automation, and intelligent inventory prediction tools.
+
+---
+
+## Verified Regional Service Locations
+Argun Software Solutions provides on-site software installation, hardware integration (barcode scanners, thermal printers, biometric devices), staff training, and continuous support across:
+1. **Gopalganj (Headquarters)**: https://argunsoftware.com/
+2. **Siwan**: https://argunsoftware.com/software-company-in-siwan.html
+3. **Saran (Chapra)**: https://argunsoftware.com/software-company-in-chapra.html
+4. **Motihari**: https://argunsoftware.com/software-company-in-motihari.html
+5. **Patna**: https://argunsoftware.com/software-company-in-patna.html
+6. **Muzaffarpur**: https://argunsoftware.com/software-company-in-muzaffarpur.html
+7. **Darbhanga**: https://argunsoftware.com/software-company-in-darbhanga.html
+8. **Bhagalpur**: https://argunsoftware.com/software-company-in-bhagalpur.html
+9. **Vaishali**: https://argunsoftware.com/software-company-in-vaishali.html
+10. **Hajipur**: https://argunsoftware.com/software-company-in-hajipur.html
+11. **Ara (Bhojpur)**: https://argunsoftware.com/software-company-in-ara.html
+12. **Buxar**: https://argunsoftware.com/software-company-in-buxar.html
+13. **Bettiah**: https://argunsoftware.com/software-company-in-bettiah.html
+14. **Samastipur**: https://argunsoftware.com/software-company-in-samastipur.html
+15. **Sitamarhi**: https://argunsoftware.com/software-company-in-sitamarhi.html
+16. **Gorakhpur (UP)**: https://argunsoftware.com/software-company-in-gorakhpur.html
+17. **Kushinagar (UP)**: https://argunsoftware.com/software-company-in-kushinagar.html
+18. **Deoria (UP)**: https://argunsoftware.com/software-company-in-deoria.html
+
+---
+
+## Why Choose Argun Software Over Generic Alternatives
+- **On-Ground Technical Support**: Direct on-site setup, training, and troubleshooting by engineers physically present in North Bihar and Eastern UP.
+- **Built for Regional Indian Businesses**: Fully customized for local workflows (e.g., kacha/pakka billing, customer udhar tracking, mandi transactions, Hindi/English bilingual interfaces).
+- **100% Tax Compliant**: Formatted to latest GSTN and Indian taxation mandates.
+- **Zero Internet Lockout**: Crucial operations continue without interruption during local internet outages.
+
+---
+
+## Official Contact Channels
+- **Phone / Direct Calling**: [+91 70912 76451](tel:7091276451)
+- **WhatsApp Direct**: https://wa.me/917091276451
+- **Email Inquiries**: argunsoftwaresolution@gmail.com
+- **Official Address**: Rajhwahi Colony, Near The Scholars Academy, Ward 7, Gopalganj, Bihar – 841428, India.
