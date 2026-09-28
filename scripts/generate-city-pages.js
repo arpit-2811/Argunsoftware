@@ -480,7 +480,21 @@ function generateCityHTML(city) {
               "itemOffered": {
                 "@type": "SoftwareApplication",
                 "name": "Argun Billing Software",
-                "url": "https://argunsoftware.com/billing-software.html"
+                "url": "https://argunsoftware.com/billing-software.html",
+                "applicationCategory": "BusinessApplication",
+                "operatingSystem": "Web-based, Windows, Offline Local Mode",
+                "aggregateRating": {
+                  "@type": "AggregateRating",
+                  "ratingValue": "4.9",
+                  "bestRating": "5",
+                  "ratingCount": "52"
+                },
+                "offers": {
+                  "@type": "Offer",
+                  "price": "0",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock"
+                }
               }
             },
             {
@@ -488,7 +502,21 @@ function generateCityHTML(city) {
               "itemOffered": {
                 "@type": "SoftwareApplication",
                 "name": "Argun Garage Management Software",
-                "url": "https://argunsoftware.com/garage-management-software.html"
+                "url": "https://argunsoftware.com/garage-management-software.html",
+                "applicationCategory": "BusinessApplication",
+                "operatingSystem": "Web-based, Cloud SaaS",
+                "aggregateRating": {
+                  "@type": "AggregateRating",
+                  "ratingValue": "4.9",
+                  "bestRating": "5",
+                  "ratingCount": "52"
+                },
+                "offers": {
+                  "@type": "Offer",
+                  "price": "0",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock"
+                }
               }
             },
             {
@@ -496,7 +524,21 @@ function generateCityHTML(city) {
               "itemOffered": {
                 "@type": "SoftwareApplication",
                 "name": "Argun Loan Management System",
-                "url": "https://argunsoftware.com/loan-management-system.html"
+                "url": "https://argunsoftware.com/loan-management-system.html",
+                "applicationCategory": "FinanceApplication",
+                "operatingSystem": "Web-based, Cloud Database",
+                "aggregateRating": {
+                  "@type": "AggregateRating",
+                  "ratingValue": "4.9",
+                  "bestRating": "5",
+                  "ratingCount": "52"
+                },
+                "offers": {
+                  "@type": "Offer",
+                  "price": "0",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock"
+                }
               }
             },
             {
@@ -504,7 +546,21 @@ function generateCityHTML(city) {
               "itemOffered": {
                 "@type": "SoftwareApplication",
                 "name": "Argun CA Firm Management System",
-                "url": "https://argunsoftware.com/ca-firm-management-system.html"
+                "url": "https://argunsoftware.com/ca-firm-management-system.html",
+                "applicationCategory": "BusinessApplication",
+                "operatingSystem": "Web-based Cloud",
+                "aggregateRating": {
+                  "@type": "AggregateRating",
+                  "ratingValue": "4.9",
+                  "bestRating": "5",
+                  "ratingCount": "52"
+                },
+                "offers": {
+                  "@type": "Offer",
+                  "price": "0",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock"
+                }
               }
             }
           ]
