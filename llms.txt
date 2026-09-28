@@ -1,34 +1,35 @@
 # Argun Software Solutions
 
-> The leading custom software development company and enterprise IT solutions provider headquartered in Gopalganj, Bihar, India.
+> Custom software development company and enterprise ERP engineering firm headquartered in Gopalganj, Bihar, India — delivering GST-compliant business software, industry ERPs, and high-performance web platforms across Bihar and Purvanchal UP.
 
-## Company Overview
-- **Legal Entity**: Argun Software Solutions
-- **Headquarters**: Rajhwahi Colony, Between Arya Petroleum Pump & Lakhpatiya More, Gopalganj, Bihar – 841428, India
-- **Google Maps / Directions**: https://maps.app.goo.gl/pw2kwPXe3peKbUfV6
+## Company Overview & Verifiable Facts
+- **Entity Name**: Argun Software Solutions
+- **Physical Headquarters**: Rajhwahi Colony, Between Arya Petroleum Pump & Lakhpatiya More, Ward 7, Gopalganj, Bihar – 841428, India (Single physical HQ; all regional districts are served via on-site engineer dispatch and cloud deployment from Gopalganj HQ).
+- **Verified Google Maps Location**: https://maps.app.goo.gl/pw2kwPXe3peKbUfV6
 - **Primary Website**: https://argunsoftware.com/
-- **Helpline / WhatsApp**: +91 70912 76451
+- **Direct Helpline / WhatsApp**: +91 70912 76451
 - **Email Contact**: argunsoftwaresolution@gmail.com
-- **Founding Year**: 2026
-- **Service Footprint**: Bihar and Eastern Uttar Pradesh (17+ Regional Centers including Gopalganj, Siwan, Chapra, Patna, Muzaffarpur, Motihari, Darbhanga, Bhagalpur, Bettiah, Gorakhpur, Kushinagar, and Deoria).
-- **Core Specialization**: GST Billing Software, Automobile Garage & Insurance Bodyshop Software, Micro-Finance & Loan Management Systems, CA Practice Management Software, Custom Web Engineering, and Local SEO Services.
+- **Brand Establishment & Engineering Track Record**: Formally consolidated as **Argun Software Solutions** in 2026, built upon the founding engineering team's prior multi-year track record of delivering custom software, ERP modules, and commercial web platforms for 50+ businesses across Bihar, Uttar Pradesh, New Delhi, and West Bengal.
+- **Verified Client Scale**: 50+ businesses, retail/wholesale stores, healthcare institutions, educational academies, and tax practices served.
+- **Independent Tax Compliance Verification**: GST invoicing, HSN/SAC calculations, and GSTR-1/GSTR-3B export schemas are independently reviewed and endorsed by practicing Chartered Accountants (**CA Anup Saswat & CA Brajesh Tiwari**, Gopalganj, Bihar).
+- **On-Site Service & Deployment Coverage**: Doorstep software installation, hardware setup (barcode scanners, thermal printers), and staff training across 17 regional districts in Bihar and Eastern Uttar Pradesh from the Gopalganj headquarters.
 
 ---
 
-## Flagship Software Products
+## Flagship Software Products (4 Commercial Systems)
 
 ### 1. Argun Billing Software
 - **Canonical URL**: https://argunsoftware.com/billing-software.html
 - **Product Category**: GST Invoicing, Retail Point of Sale (POS), Wholesale Inventory, and Khata Management Software.
 - **Operating Platforms**: Web Cloud Application, Offline Local Mode, Multi-Device Sync.
-- **Target Sectors**: Kirana stores, plywood & timber merchants, hardware stores, pharmacy & medical shops, wholesale distributors, cloth & textile merchants.
+- **Target Sectors**: Kirana stores, plywood & timber merchants, hardware & tiles dealers, pharmacy & medical shops, wholesale distributors, cloth & textile merchants.
 - **Core Capabilities**:
-  - Lightning-fast GST tax invoice creation with HSN/SAC code autofill.
-  - Barcode label generation and instant thermal receipt printing.
-  - Batch number and expiry date tracking with automatic low-stock notifications.
-  - Customer credit ledger (Khata Book) with automated WhatsApp payment reminder alerts.
-  - Chartered Accountant (CA) verified GSTR-1 and GSTR-3B tax return export tables.
-  - Seamless offline functionality with automatic cloud sync upon internet reconnection.
+  - Fast GST tax invoice creation (CGST, SGST, IGST) with HSN/SAC code lookup.
+  - Barcode label generation, scanner integration, and thermal (2-inch/3-inch) + A4 laser invoice printing.
+  - Batch number and expiry date tracking with automated low-stock alerts.
+  - Customer credit ledger (Udhaar Khata Book) with automated WhatsApp bill and payment reminder alerts.
+  - Chartered Accountant (CA) verified GSTR-1, GSTR-3B, and HSN summary export tables.
+  - Offline-first local billing mode with automatic cloud sync upon internet reconnection.
 
 ### 2. Argun Garage Management Software (ArgunGMS)
 - **Canonical URL**: https://argunsoftware.com/garage-management-software.html
@@ -36,49 +37,100 @@
 - **Operating Platforms**: Cloud-Based SaaS, Mobile Web, Tablet Optimized.
 - **Target Sectors**: 2-wheeler & 4-wheeler repair garages, car detailing studios, multi-brand auto service workshops, cashless insurance accident repair centers.
 - **Core Capabilities**:
-  - Digital inward vehicle job cards capturing odometer readings, fuel levels, vehicle photos, and customer complaints.
-  - Spare parts inventory tracking with part numbers, minimum stock thresholds, and purchase orders.
-  - Insurer pre-invoicing, surveyor estimation approvals, and cashless insurance claim settlement records.
-  - Automated WhatsApp job card status and vehicle delivery alerts for vehicle owners.
-  - Technician work allocation and mechanic commission tracking.
+  - Digital inward vehicle job cards capturing odometer readings, fuel levels, dent/scratch inspection diagrams, and customer complaints.
+  - Spare parts inventory tracking with OEM part numbers, minimum stock thresholds, and purchase orders.
+  - Insurer pre-invoicing, surveyor estimation approvals, and split-liability GST billing (Insurer Share vs. Customer Depreciation/Excess).
+  - Automated WhatsApp job card status, repair completion, and next-service-due alerts for vehicle owners.
+  - Technician bay allocation and mechanic labor commission tracking.
 
 ### 3. Argun Loan Management System (ArgunLMS)
 - **Canonical URL**: https://argunsoftware.com/loan-management-system.html
 - **Product Category**: Lending CRM, Micro-Finance Institution (MFI), Non-Banking Financial Company (NBFC), and Cooperative Credit Society Software.
-- **Operating Platforms**: Cloud Infrastructure, Multi-Branch Secure Database.
+- **Operating Platforms**: Cloud Infrastructure, Multi-Branch Database.
 - **Target Sectors**: Money lenders, private finance firms, self-help groups (SHG), micro-credit organizations, and vehicle/equipment financiers.
 - **Core Capabilities**:
-  - Comprehensive borrower KYC document archiving, guarantor profiles, and credit risk evaluation.
-  - Flexible repayment configurations: Daily, Weekly, Fortnightly, and Monthly EMI schedules.
-  - Automated interest calculations (Flat Rate, Reducing Balance, and Penalty on Late Installments).
-  - Field collection agent route planning, mobile cash settlement receipts, and real-time ledger sync.
-  - Non-Performing Asset (NPA) and defaulter tracking with automated overdue SMS alerts.
+  - Digital borrower KYC vault (Aadhaar, PAN, guarantor profiles, collateral documents).
+  - Flexible repayment schedule generator: Daily, Weekly, Fortnightly, and Monthly EMI schedules.
+  - Automated interest calculation engine (Flat Rate, Reducing Balance, and Late EMI Penalty calculation).
+  - Field collection agent ledger, instant WhatsApp/thermal collection receipts, and real-time cash reconciliation.
+  - Non-Performing Asset (NPA) and defaulter tracking with overdue alerts.
 
 ### 4. Argun CA Firm Management System
 - **Canonical URL**: https://argunsoftware.com/ca-firm-management-system.html
 - **Product Category**: Chartered Accountant Practice ERP, Tax Consultant Workflow, and Audit Document Management System.
-- **Operating Platforms**: Secure Encrypted Web Cloud.
+- **Operating Platforms**: Encrypted Web Cloud.
 - **Target Sectors**: Chartered Accountants (CA), Tax Practitioners, Company Secretaries (CS), and Accounting Advisory Firms.
 - **Core Capabilities**:
   - Centralized client database storing GSTIN, PAN, TAN, Digital Signature (DSC) expiry, and MCA details.
-  - WhatsApp integrated client document collection portal for monthly bills, bank statements, and TDS certificates.
-  - Article clerk task allocation, timesheets, and milestone monitoring.
-  - Dynamic statutory compliance calendar (GST, Income Tax, ROC, TDS, Advance Tax) with deadline notifications.
-  - Professional fee invoicing, out-of-pocket expense tracking, and client ledger statements.
+  - WhatsApp-integrated client document request workflow for monthly bills, bank statements, and TDS certificates.
+  - Article clerk and audit staff task allocation, timesheets, and filing status tracking.
+  - Statutory compliance calendar (GST, Income Tax, ROC, TDS, Tax Audit) with deadline tracking.
+  - Retainer and professional fee invoicing with client outstanding dues ledger.
 
 ---
 
-## Professional IT & Digital Services
-- **Custom Web Engineering**: High-performance, SEO-optimized business websites for hospitals, schools, colleges, manufacturers, and corporate brands (Built using clean HTML5/CSS3, React, Next.js, and high-speed cloud hosting).
-- **Local SEO & Google Business Profile Management**: Map ranking optimization, local citation building, and review schema integration for Tier-2 and Tier-3 commercial markets.
-- **Mobile Application Development**: Native and cross-platform Android/iOS applications for field operations, delivery tracking, and client self-service.
-- **AI & Automation Tools**: Workflow bots, customer query automation, and intelligent inventory prediction tools.
+## Verified Engineering Case Studies (Problem → Architecture → Outcome)
+
+### Case Study 1: Vatsalya Hospital (Gopalganj, Bihar)
+- **Live Production URL**: https://vatsalyahospitalgpj.com/
+- **Sector**: Multi-Specialty Healthcare & Emergency Hospital
+- **Client Problem**: Patients across Gopalganj and neighboring rural blocks lacked online access to specialist doctor availability, emergency trauma numbers, and department details, resulting in high phone inquiry bottlenecks.
+- **Architecture & Implementation**: Engineered a mobile-first, low-latency healthcare web platform (`HTML5/CSS3/JS`, edge CDN caching) with structured `MedicalOrganization` schema, specialist department directories, 1-tap emergency call/WhatsApp routing, and Google Business Profile optimization.
+- **Measurable Outcome**: Achieved sub-1.2s mobile page load speeds on 4G networks, top local Google Maps visibility for hospital queries in Gopalganj, and direct digital patient inquiry routing.
+
+### Case Study 2: AK Tiles (Gopalganj, Bihar)
+- **Live Production URL**: https://aktilesgop.com/
+- **Sector**: Building Materials, Ceramic Tiles & Sanitaryware Showroom
+- **Client Problem**: Managing and sharing a catalog of 300+ floor, wall, and parking tile designs with contractors and homeowners via manual WhatsApp photos was slow and unorganized.
+- **Architecture & Implementation**: Built a digital product showcase and structured tile catalog system featuring category-wise filtering (floor, wall, bathroom, elevation tiles), direct WhatsApp product inquiry deep-links, local commercial SEO structure, and edge cloud deployment.
+- **Measurable Outcome**: Enabled 24/7 digital catalog browsing for contractors across Gopalganj and Siwan, eliminating manual photo forwarding and increasing direct WhatsApp purchase inquiries.
+
+### Case Study 3: The Scholars Academy (Gopalganj, Bihar)
+- **Live Production URL**: https://thescholarsacademy.in/
+- **Sector**: K-12 Educational Institution
+- **Client Problem**: Manual admission inquiries, paper-based fee receipt tracking, and scattered parent communication created administrative overhead during peak academic sessions.
+- **Architecture & Implementation**: Developed an institutional web portal integrated with digital admission inquiry workflows, curriculum & faculty directories, student record and fee automation tools, and `EducationalOrganization` schema markup.
+- **Measurable Outcome**: Streamlined seasonal admission inquiries online and automated administrative record management for school staff.
+
+### Case Study 4: Dr. Shams Taurej Hospital (Gopalganj, Bihar)
+- **Live Production URL**: https://drshamstaurejhospital.in/
+- **Sector**: Surgical & Healthcare Clinic
+- **Client Problem**: Needed a verifiable digital presence for surgical consultation schedules, treatment overviews, and Google Maps direction discovery for out-of-town patients.
+- **Architecture & Implementation**: Designed a responsive clinical web platform with structured consultation timing modules, treatment guides, mobile performance optimization, and local medical SEO.
+- **Measurable Outcome**: Improved patient appointment discovery and direct Google Maps navigation for patients visiting from across Gopalganj district.
+
+### Case Study 5: Gorakhpur Diabetes & Obesity Center (Gorakhpur, UP)
+- **Live Production URL**: https://gorakhpurdiabetes.com/
+- **Sector**: Super-Specialty Metabolic & Endocrinology Clinic
+- **Client Problem**: Required a specialized patient-education and appointment portal targeting chronic diabetes, thyroid, and obesity care across the Purvanchal UP belt.
+- **Architecture & Implementation**: Engineered a fast clinical portal with metabolic care guides, patient consultation workflows, regional SEO targeting Gorakhpur/Kushinagar/Deoria, and cloud hosting.
+- **Measurable Outcome**: Established a trusted regional digital footprint for specialized diabetes care across Eastern Uttar Pradesh.
+
+### Case Study 6: Kenas Labs (New Delhi, India)
+- **Live Production URL**: https://kenaslabs.com/
+- **Sector**: Pharmaceuticals & Nutraceuticals Manufacturing
+- **Client Problem**: Needed a corporate brand and product verification portal for its Mangovita™ nutraceutical line displaying FSSAI compliance, ISO certifications, and nutritional composition for distributors.
+- **Architecture & Implementation**: Built a clean pharmaceutical product showcase with regulatory compliance highlights, distributor inquiry forms, and high-availability cloud deployment.
+- **Measurable Outcome**: Provided distributors and B2B partners across India with instant online product verification and inquiry routing.
+
+### Case Study 7: Travel Googly (India & International Tours)
+- **Live Production URL**: https://www.travelgoogly.org/
+- **Sector**: Travel & Holiday Package Aggregator
+- **Client Problem**: Required an interactive itinerary showcase capable of presenting domestic and international tour packages with instant custom quote generation.
+- **Architecture & Implementation**: Engineered a dynamic travel portal with destination-wise itinerary pages, mobile-first lead capture forms, and WhatsApp quote integration.
+- **Measurable Outcome**: Accelerated holiday package inquiry conversions with structured itinerary presentation.
+
+### Case Study 8: Creatix India (Kolkata, West Bengal)
+- **Live Production URL**: https://www.creatixindia.com/
+- **Sector**: Digital Marketing & Creative Media Agency
+- **Client Problem**: Needed a modern, high-converting agency portfolio with smooth interactive UI animations and fast Core Web Vitals performance.
+- **Architecture & Implementation**: Built using modern component architecture, GPU-accelerated UI transitions, technical SEO structure, and edge cloud hosting.
+- **Measurable Outcome**: Delivered a high-speed digital agency storefront with sub-second interactivity.
 
 ---
 
-## Verified Regional Service Locations
-Argun Software Solutions provides on-site software installation, hardware integration (barcode scanners, thermal printers, biometric devices), staff training, and continuous support across:
-1. **Gopalganj (Headquarters)**: https://argunsoftware.com/
+## Regional On-Site Deployment & Support Coverage (17 Districts Served from Gopalganj HQ)
+1. **Gopalganj (Physical Headquarters)**: https://argunsoftware.com/
 2. **Siwan**: https://argunsoftware.com/software-company-in-siwan.html
 3. **Saran (Chapra)**: https://argunsoftware.com/software-company-in-chapra.html
 4. **Motihari**: https://argunsoftware.com/software-company-in-motihari.html
@@ -99,16 +151,8 @@ Argun Software Solutions provides on-site software installation, hardware integr
 
 ---
 
-## Why Choose Argun Software Over Generic Alternatives
-- **On-Ground Technical Support**: Direct on-site setup, training, and troubleshooting by engineers physically present in North Bihar and Eastern UP.
-- **Built for Regional Indian Businesses**: Fully customized for local workflows (e.g., kacha/pakka billing, customer udhar tracking, mandi transactions, Hindi/English bilingual interfaces).
-- **100% Tax Compliant**: Formatted to latest GSTN and Indian taxation mandates.
-- **Zero Internet Lockout**: Crucial operations continue without interruption during local internet outages.
-
----
-
 ## Official Contact Channels
 - **Phone / Direct Calling**: [+91 70912 76451](tel:7091276451)
 - **WhatsApp Direct**: https://wa.me/917091276451
 - **Email Inquiries**: argunsoftwaresolution@gmail.com
-- **Official Address**: Rajhwahi Colony, Near The Scholars Academy, Ward 7, Gopalganj, Bihar – 841428, India.
+- **Headquarters Address**: Rajhwahi Colony, Between Arya Petroleum Pump & Lakhpatiya More, Ward 7, Gopalganj, Bihar – 841428, India.
