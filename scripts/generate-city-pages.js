@@ -509,6 +509,14 @@ function generateCityHTML(city) {
             }
           ]
         },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "52",
+          "reviewCount": "52"
+        },
         "priceRange": "₹₹",
         "openingHoursSpecification": [
           {
@@ -593,7 +601,7 @@ function generateCityHTML(city) {
       <!-- Brand Logo -->
       <a href="index.html" class="logo-link">
         <div class="logo-mark">
-          <img src="argunlogo.jpeg" alt="Argun Logo" class="logo-img">
+          <img src="argunlogo.jpeg" alt="Argun Software Solutions Logo" width="36" height="36" fetchpriority="high" decoding="async" class="logo-img">
         </div>
         <div class="logo-text">
           <span class="logo-title">ARGUN</span>
