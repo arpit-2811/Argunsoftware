@@ -28,43 +28,88 @@
   <meta name="twitter:description" content="Manage loans, borrowers, installments, interest calculations, collection reports & automated alerts.">
   <meta name="twitter:image" content="https://argunsoftware.com/argunlogo.jpeg">
 
-  <!-- Schema.org JSON-LD -->
+  <!-- Pillar 3: Knowledge Graph & SoftwareApplication Entity Schema -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "Argun Loan Management System",
-    "alternateName": ["ArgunLMS", "Argun LMS"],
-    "operatingSystem": "Web-Based",
-    "applicationCategory": "BusinessApplication",
-    "description": "Cloud-based loan, EMI tracking, and collection management software for micro-finance lenders in India.",
-    "url": "https://argunsoftware.com/loan-management-system.html",
-    "image": "https://argunsoftware.com/argunlogo.jpeg",
-    "publisher": {
-      "@type": "Organization",
-      "name": "Argun Software Solutions",
-      "url": "https://argunsoftware.com/"
-    }
-  }
-  </script>
-
-  <!-- Breadcrumb Schema -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
+    "@graph": [
       {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://argunsoftware.com/"
+        "@type": "SoftwareApplication",
+        "@id": "https://argunsoftware.com/loan-management-system.html#software",
+        "name": "Argun Loan Management System",
+        "alternateName": ["ArgunLMS", "Argun LMS", "Argun Microfinance & EMI Collection Software"],
+        "operatingSystem": "Web-Based, Cloud Database",
+        "applicationCategory": "FinanceApplication",
+        "applicationSubCategory": "Loan Origination, EMI Collection & NBFC Management Software",
+        "description": "Cloud-based loan origination, borrower KYC vault, daily/weekly/monthly EMI tracking, and collection management software for micro-finance lenders and NBFCs in India.",
+        "url": "https://argunsoftware.com/loan-management-system.html",
+        "image": "https://argunsoftware.com/argunlogo.jpeg",
+        "featureList": [
+          "Digital Borrower KYC Vault (Aadhaar, PAN, Guarantor & Collateral Records)",
+          "Flexible Daily, Weekly, Fortnightly & Monthly EMI Schedule Generator",
+          "Flat-Rate & Reducing-Balance Interest Calculation Engine",
+          "Field Collection Agent Ledger & Instant Thermal/WhatsApp Receipt Generation",
+          "Overdue Defaulter Alerts, Penalty Tracking & NPA Portfolio Analytics"
+        ],
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Loan origination",
+            "sameAs": [
+              "https://en.wikipedia.org/wiki/Loan_origination",
+              "https://www.wikidata.org/wiki/Q6663483"
+            ]
+          },
+          {
+            "@type": "Thing",
+            "name": "Microfinance",
+            "sameAs": [
+              "https://en.wikipedia.org/wiki/Microfinance",
+              "https://www.wikidata.org/wiki/Q174188"
+            ]
+          },
+          {
+            "@type": "Thing",
+            "name": "Equated monthly installment",
+            "sameAs": [
+              "https://en.wikipedia.org/wiki/Equated_monthly_installment",
+              "https://www.wikidata.org/wiki/Q5384255"
+            ]
+          }
+        ],
+        "offers": {
+          "@type": "Offer",
+          "availability": "https://schema.org/InStock",
+          "priceCurrency": "INR",
+          "seller": {
+            "@id": "https://argunsoftware.com/#organization"
+          }
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://argunsoftware.com/#organization",
+          "name": "Argun Software Solutions",
+          "url": "https://argunsoftware.com/",
+          "telephone": "+91-7091276451"
+        }
       },
       {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Loan Management System",
-        "item": "https://argunsoftware.com/loan-management-system.html"
+        "@type": "BreadcrumbList",
+        "@id": "https://argunsoftware.com/loan-management-system.html#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://argunsoftware.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Loan Management System",
+            "item": "https://argunsoftware.com/loan-management-system.html"
+          }
+        ]
       }
     ]
   }

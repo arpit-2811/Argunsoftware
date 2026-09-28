@@ -1,4 +1,33 @@
 User-agent: *
 Allow: /
 
+# Explicitly allow Knowledge Graph & AI Search Crawlers (GEO + Entity Authority)
+User-agent: Googlebot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
 Sitemap: https://argunsoftware.com/sitemap.xml
+# AI Manifest: https://argunsoftware.com/llms.txt

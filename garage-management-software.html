@@ -28,43 +28,89 @@
   <meta name="twitter:description" content="Cloud-based GST garage & insurance bodyshop management software for Indian workshops.">
   <meta name="twitter:image" content="https://argunsoftware.com/argunlogo.jpeg">
 
-  <!-- Schema.org JSON-LD Structured Data -->
+  <!-- Pillar 3: Knowledge Graph & SoftwareApplication Entity Schema -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "Argun Garage Management Software",
-    "alternateName": ["ArgunGMS", "Argun GMS"],
-    "operatingSystem": "Web-Based",
-    "applicationCategory": "BusinessApplication",
-    "description": "Cloud-based GST compliant garage and insurance bodyshop management software for automobile workshops in India.",
-    "url": "https://argunsoftware.com/garage-management-software.html",
-    "image": "https://argunsoftware.com/argunlogo.jpeg",
-    "publisher": {
-      "@type": "Organization",
-      "name": "Argun Software Solutions",
-      "url": "https://argunsoftware.com/"
-    }
-  }
-  </script>
-
-  <!-- Breadcrumb Schema -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
+    "@graph": [
       {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://argunsoftware.com/"
+        "@type": "SoftwareApplication",
+        "@id": "https://argunsoftware.com/garage-management-software.html#software",
+        "name": "Argun Garage Management Software",
+        "alternateName": ["ArgunGMS", "Argun GMS", "Argun Workshop & Insurance Claim ERP"],
+        "operatingSystem": "Web-Based, Cloud SaaS, Multi-Device",
+        "applicationCategory": "BusinessApplication",
+        "applicationSubCategory": "Automobile Workshop & Insurance Bodyshop Management Software",
+        "description": "Cloud-based GST compliant garage and insurance bodyshop management software for automobile workshops in India. Digital job cards, surveyor estimate sheets, spare parts inventory, and split liability billing.",
+        "url": "https://argunsoftware.com/garage-management-software.html",
+        "image": "https://argunsoftware.com/argunlogo.jpeg",
+        "featureList": [
+          "Digital Vehicle Job Cards with Dent/Scratch Inspection Tracking",
+          "Insurance Surveyor Estimate Sheet & Cashless Claim Approval Ledger",
+          "Automated Split Liability GST Invoicing (Insurer Share vs Customer Excess/Depreciation)",
+          "Automobile Spare Parts Stock & OEM Part Number Inventory",
+          "Mechanic Bay Allocation & Labor Commission Calculation",
+          "Automated Service Due Reminders via WhatsApp"
+        ],
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Automobile repair shop",
+            "sameAs": [
+              "https://en.wikipedia.org/wiki/Automobile_repair_shop",
+              "https://www.wikidata.org/wiki/Q786803"
+            ]
+          },
+          {
+            "@type": "Thing",
+            "name": "Vehicle insurance",
+            "sameAs": [
+              "https://en.wikipedia.org/wiki/Vehicle_insurance",
+              "https://www.wikidata.org/wiki/Q1068361"
+            ]
+          },
+          {
+            "@type": "Thing",
+            "name": "Enterprise resource planning",
+            "sameAs": [
+              "https://en.wikipedia.org/wiki/Enterprise_resource_planning",
+              "https://www.wikidata.org/wiki/Q131508"
+            ]
+          }
+        ],
+        "offers": {
+          "@type": "Offer",
+          "availability": "https://schema.org/InStock",
+          "priceCurrency": "INR",
+          "seller": {
+            "@id": "https://argunsoftware.com/#organization"
+          }
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://argunsoftware.com/#organization",
+          "name": "Argun Software Solutions",
+          "url": "https://argunsoftware.com/",
+          "telephone": "+91-7091276451"
+        }
       },
       {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Garage Management Software",
-        "item": "https://argunsoftware.com/garage-management-software.html"
+        "@type": "BreadcrumbList",
+        "@id": "https://argunsoftware.com/garage-management-software.html#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://argunsoftware.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Garage Management Software",
+            "item": "https://argunsoftware.com/garage-management-software.html"
+          }
+        ]
       }
     ]
   }

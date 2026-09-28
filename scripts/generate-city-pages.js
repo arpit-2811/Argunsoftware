@@ -303,8 +303,35 @@ const cities = [
   }
 ];
 
+const cityEntityMap = {
+  'software-company-in-siwan.html': ['https://en.wikipedia.org/wiki/Siwan,_Bihar', 'https://www.wikidata.org/wiki/Q100155'],
+  'software-company-in-chapra.html': ['https://en.wikipedia.org/wiki/Chhapra', 'https://www.wikidata.org/wiki/Q242921'],
+  'software-company-in-motihari.html': ['https://en.wikipedia.org/wiki/Motihari', 'https://www.wikidata.org/wiki/Q778596'],
+  'software-company-in-patna.html': ['https://en.wikipedia.org/wiki/Patna', 'https://www.wikidata.org/wiki/Q80484'],
+  'software-company-in-muzaffarpur.html': ['https://en.wikipedia.org/wiki/Muzaffarpur', 'https://www.wikidata.org/wiki/Q234146'],
+  'software-company-in-darbhanga.html': ['https://en.wikipedia.org/wiki/Darbhanga', 'https://www.wikidata.org/wiki/Q234160'],
+  'software-company-in-bhagalpur.html': ['https://en.wikipedia.org/wiki/Bhagalpur', 'https://www.wikidata.org/wiki/Q207089'],
+  'software-company-in-vaishali.html': ['https://en.wikipedia.org/wiki/Vaishali_district', 'https://www.wikidata.org/wiki/Q49167'],
+  'software-company-in-hajipur.html': ['https://en.wikipedia.org/wiki/Hajipur', 'https://www.wikidata.org/wiki/Q604182'],
+  'software-company-in-ara.html': ['https://en.wikipedia.org/wiki/Arrah', 'https://www.wikidata.org/wiki/Q625982'],
+  'software-company-in-buxar.html': ['https://en.wikipedia.org/wiki/Buxar', 'https://www.wikidata.org/wiki/Q857511'],
+  'software-company-in-bettiah.html': ['https://en.wikipedia.org/wiki/Bettiah', 'https://www.wikidata.org/wiki/Q777903'],
+  'software-company-in-samastipur.html': ['https://en.wikipedia.org/wiki/Samastipur', 'https://www.wikidata.org/wiki/Q1018689'],
+  'software-company-in-sitamarhi.html': ['https://en.wikipedia.org/wiki/Sitamarhi', 'https://www.wikidata.org/wiki/Q1937691'],
+  'software-company-in-gorakhpur.html': ['https://en.wikipedia.org/wiki/Gorakhpur', 'https://www.wikidata.org/wiki/Q200019'],
+  'software-company-in-kushinagar.html': ['https://en.wikipedia.org/wiki/Kushinagar_district', 'https://www.wikidata.org/wiki/Q1815335'],
+  'software-company-in-deoria.html': ['https://en.wikipedia.org/wiki/Deoria,_Uttar_Pradesh', 'https://www.wikidata.org/wiki/Q988342']
+};
+
+const stateEntityMap = {
+  'Bihar': ['https://en.wikipedia.org/wiki/Bihar', 'https://www.wikidata.org/wiki/Q1165'],
+  'Uttar Pradesh': ['https://en.wikipedia.org/wiki/Uttar_Pradesh', 'https://www.wikidata.org/wiki/Q1498']
+};
+
 function generateCityHTML(city) {
   const shortCity = city.shortName || city.name;
+  const citySameAs = JSON.stringify(cityEntityMap[city.slug] || []);
+  const stateSameAs = JSON.stringify(stateEntityMap[city.state] || []);
   
   // Filter other cities for regional navigation
   const otherCities = cities.filter(c => c.slug !== city.slug);
@@ -356,115 +383,201 @@ function generateCityHTML(city) {
   <!-- Stylesheet -->
   <link rel="stylesheet" href="styles.css?v=2.1">
 
-  <!-- Organization & Local Business Schema -->
+  <!-- Pillar 3: Unified Knowledge Graph & Regional Entity Authority Schema (@graph) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": ["LocalBusiness", "ProfessionalService"],
-    "name": "Argun Software Solutions - ${shortCity}",
-    "alternateName": ["Argun Software ${shortCity}", "Best Software Company in ${shortCity}", "Software Solutions ${shortCity}"],
-    "url": "https://argunsoftware.com/${city.slug}",
-    "logo": "https://argunsoftware.com/argunlogo.jpeg",
-    "image": "https://argunsoftware.com/argunlogo.jpeg",
-    "description": "${city.metaDesc}",
-    "telephone": "+91-7091276451",
-    "email": "argunsoftwaresolution@gmail.com",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "${shortCity}",
-      "addressRegion": "${city.state}",
-      "addressCountry": "IN"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": ${city.geo.lat},
-      "longitude": ${city.geo.lng}
-    },
-    "areaServed": [
+    "@graph": [
       {
-        "@type": "City",
-        "name": "${shortCity}"
+        "@type": ["LocalBusiness", "ProfessionalService"],
+        "@id": "https://argunsoftware.com/${city.slug}#localbusiness",
+        "name": "Argun Software Solutions - ${shortCity}",
+        "alternateName": ["Argun Software ${shortCity}", "Best Software Company in ${shortCity}", "Software Solutions ${shortCity}"],
+        "url": "https://argunsoftware.com/${city.slug}",
+        "logo": "https://argunsoftware.com/argunlogo.jpeg",
+        "image": "https://argunsoftware.com/argunlogo.jpeg",
+        "description": "${city.metaDesc}",
+        "telephone": "+91-7091276451",
+        "email": "argunsoftwaresolution@gmail.com",
+        "parentOrganization": {
+          "@type": "Organization",
+          "@id": "https://argunsoftware.com/#organization",
+          "name": "Argun Software Solutions",
+          "url": "https://argunsoftware.com/"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "${shortCity}",
+          "addressRegion": "${city.state}",
+          "addressCountry": "IN"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": ${city.geo.lat},
+          "longitude": ${city.geo.lng}
+        },
+        "hasMap": "https://www.google.com/maps/search/?api=1&query=Argun+Software+Solutions+Gopalganj+Bihar",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-7091276451",
+          "contactType": "sales and technical support",
+          "email": "argunsoftwaresolution@gmail.com",
+          "areaServed": "${shortCity}",
+          "availableLanguage": ["English", "Hindi", "Bhojpuri"]
+        },
+        "areaServed": [
+          {
+            "@type": "City",
+            "name": "${shortCity}",
+            "sameAs": ${citySameAs}
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "${city.state}",
+            "sameAs": ${stateSameAs}
+          }
+        ],
+        "knowsAbout": [
+          {
+            "@type": "Thing",
+            "name": "Goods and Services Tax (India) Billing Software",
+            "sameAs": [
+              "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)",
+              "https://www.wikidata.org/wiki/Q5583597"
+            ]
+          },
+          {
+            "@type": "Thing",
+            "name": "Point of Sale (POS) & Retail Invoicing",
+            "sameAs": [
+              "https://en.wikipedia.org/wiki/Point_of_sale",
+              "https://www.wikidata.org/wiki/Q216635"
+            ]
+          },
+          {
+            "@type": "Thing",
+            "name": "Enterprise Resource Planning (ERP)",
+            "sameAs": [
+              "https://en.wikipedia.org/wiki/Enterprise_resource_planning",
+              "https://www.wikidata.org/wiki/Q131508"
+            ]
+          },
+          {
+            "@type": "Thing",
+            "name": "Custom Software Development",
+            "sameAs": [
+              "https://en.wikipedia.org/wiki/Software_development",
+              "https://www.wikidata.org/wiki/Q638608"
+            ]
+          }
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Argun Software Products Available in ${shortCity}",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "SoftwareApplication",
+                "name": "Argun Billing Software",
+                "url": "https://argunsoftware.com/billing-software.html"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "SoftwareApplication",
+                "name": "Argun Garage Management Software",
+                "url": "https://argunsoftware.com/garage-management-software.html"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "SoftwareApplication",
+                "name": "Argun Loan Management System",
+                "url": "https://argunsoftware.com/loan-management-system.html"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "SoftwareApplication",
+                "name": "Argun CA Firm Management System",
+                "url": "https://argunsoftware.com/ca-firm-management-system.html"
+              }
+            }
+          ]
+        },
+        "priceRange": "₹₹",
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+            "opens": "09:00",
+            "closes": "20:00"
+          }
+        ],
+        "sameAs": [
+          "https://youtube.com/@argunsoftware?si=oOKnpo4390Ulo7r4",
+          "https://www.instagram.com/argunsoftware?igsh=Z3NxMG5yejR0YmR3"
+        ]
       },
       {
-        "@type": "AdministrativeArea",
-        "name": "${city.state}"
-      }
-    ],
-    "priceRange": "₹₹",
-    "openingHoursSpecification": [
-      {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-        "opens": "09:00",
-        "closes": "20:00"
-      }
-    ],
-    "sameAs": [
-      "https://youtube.com/@argunsoftware?si=oOKnpo4390Ulo7r4",
-      "https://www.instagram.com/argunsoftware?igsh=Z3NxMG5yejR0YmR3"
-    ]
-  }
-  </script>
-
-  <!-- Breadcrumb Schema -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://argunsoftware.com/"
+        "@type": "BreadcrumbList",
+        "@id": "https://argunsoftware.com/${city.slug}#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://argunsoftware.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Software Company in ${shortCity}",
+            "item": "https://argunsoftware.com/${city.slug}"
+          }
+        ]
       },
       {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Software Company in ${shortCity}",
-        "item": "https://argunsoftware.com/${city.slug}"
-      }
-    ]
-  }
-  </script>
-
-  <!-- FAQ Schema -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "Which is the best software company in ${shortCity}?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Argun Software Solutions is widely recognized as the leading software development company and IT partner serving ${city.fullName}. Argun Software builds custom business software, GST billing systems, auto garage software, loan management platforms, and commercial websites with personalized on-site installation and staff training in ${shortCity}."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Does Argun Software provide on-site support and training in ${shortCity}?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes. Argun Software Solutions provides direct on-site software installation, staff training, and continuous technical support for businesses across ${city.commercialZones} and surrounding areas."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What software products does Argun Software offer in ${shortCity}?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Argun Software Solutions offers four specialized products: Argun Billing Software for retail & wholesale stores, Argun Garage Management Software for auto workshops and insurance bodyshops, Argun Loan Management System for lenders and micro-finance societies, and Argun CA Firm Management System for Chartered Accountants, along with custom website development."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How can I book a free software demo in ${shortCity}?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "You can request a free demo by calling or messaging our direct support line at +91 70912 76451. Our technical engineers will arrange an in-person walkthrough at your business in ${shortCity} or a screen-share session."
-        }
+        "@type": "FAQPage",
+        "@id": "https://argunsoftware.com/${city.slug}#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Which is the best software company in ${shortCity}?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Argun Software Solutions is widely recognized as the leading software development company and IT partner serving ${city.fullName}. Argun Software builds custom business software, GST billing systems, auto garage software, loan management platforms, and commercial websites with personalized on-site installation and staff training in ${shortCity}."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Argun Software provide on-site support and training in ${shortCity}?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Argun Software Solutions provides direct on-site software installation, staff training, and continuous technical support for businesses across ${city.commercialZones} and surrounding areas."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What software products does Argun Software offer in ${shortCity}?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Argun Software Solutions offers four specialized products: Argun Billing Software for retail & wholesale stores, Argun Garage Management Software for auto workshops and insurance bodyshops, Argun Loan Management System for lenders and micro-finance societies, and Argun CA Firm Management System for Chartered Accountants, along with custom website development."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How can I book a free software demo in ${shortCity}?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "You can request a free demo by calling or messaging our direct support line at +91 70912 76451. Our technical engineers will arrange an in-person walkthrough at your business in ${shortCity} or a screen-share session."
+            }
+          }
+        ]
       }
     ]
   }

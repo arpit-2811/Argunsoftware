@@ -28,43 +28,89 @@
   <meta name="twitter:description" content="Lightning-fast GST billing, smart inventory, customer khata, cashbook, and CA-approved GST reports.">
   <meta name="twitter:image" content="https://argunsoftware.com/argunlogo.jpeg">
 
-  <!-- Schema.org JSON-LD -->
+  <!-- Pillar 3: Knowledge Graph & SoftwareApplication Entity Schema -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "Argun Billing Software",
-    "alternateName": ["Argun Billing", "Argun GST Billing"],
-    "operatingSystem": "Web-Based",
-    "applicationCategory": "BusinessApplication",
-    "description": "Fast GST billing, batch & expiry inventory, customer khata, and sales analytics software for retail & wholesale businesses in India.",
-    "url": "https://argunsoftware.com/billing-software.html",
-    "image": "https://argunsoftware.com/argunlogo.jpeg",
-    "publisher": {
-      "@type": "Organization",
-      "name": "Argun Software Solutions",
-      "url": "https://argunsoftware.com/"
-    }
-  }
-  </script>
-
-  <!-- Breadcrumb Schema -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
+    "@graph": [
       {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://argunsoftware.com/"
+        "@type": "SoftwareApplication",
+        "@id": "https://argunsoftware.com/billing-software.html#software",
+        "name": "Argun Billing Software",
+        "alternateName": ["Argun Billing", "Argun GST Billing", "Argun POS & Inventory Suite"],
+        "operatingSystem": "Web-Based, Windows, Offline Local Mode, Multi-Device Cloud Sync",
+        "applicationCategory": "BusinessApplication",
+        "applicationSubCategory": "GST Invoicing & Inventory Management Software",
+        "description": "Fast GST billing, batch & expiry inventory, customer khata, thermal/A4 invoice printing, and CA-ready GSTR-1/3B tax analytics software for retail & wholesale businesses in India.",
+        "url": "https://argunsoftware.com/billing-software.html",
+        "image": "https://argunsoftware.com/argunlogo.jpeg",
+        "featureList": [
+          "100% GST-Compliant Tax Invoicing (CGST, SGST, IGST) with HSN/SAC Code Lookup",
+          "Batch Number & Expiry Date Inventory Tracking for Pharmacies & FMCG",
+          "Customer Udhaar / Credit Khata Book with Automated WhatsApp Reminders",
+          "Barcode & QR Code Scanner Integration with Thermal (2-inch/3-inch) & A4 Laser Printing",
+          "Offline-First Local Billing Mode with Cloud Backup",
+          "One-Click GSTR-1, GSTR-3B & HSN Summary Export for Chartered Accountants"
+        ],
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Goods and Services Tax (India)",
+            "sameAs": [
+              "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)",
+              "https://www.wikidata.org/wiki/Q5583597"
+            ]
+          },
+          {
+            "@type": "Thing",
+            "name": "Point of sale",
+            "sameAs": [
+              "https://en.wikipedia.org/wiki/Point_of_sale",
+              "https://www.wikidata.org/wiki/Q216635"
+            ]
+          },
+          {
+            "@type": "Thing",
+            "name": "Inventory management software",
+            "sameAs": [
+              "https://en.wikipedia.org/wiki/Inventory_management_software",
+              "https://www.wikidata.org/wiki/Q6059876"
+            ]
+          }
+        ],
+        "offers": {
+          "@type": "Offer",
+          "availability": "https://schema.org/InStock",
+          "priceCurrency": "INR",
+          "seller": {
+            "@id": "https://argunsoftware.com/#organization"
+          }
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://argunsoftware.com/#organization",
+          "name": "Argun Software Solutions",
+          "url": "https://argunsoftware.com/",
+          "telephone": "+91-7091276451"
+        }
       },
       {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Billing Software",
-        "item": "https://argunsoftware.com/billing-software.html"
+        "@type": "BreadcrumbList",
+        "@id": "https://argunsoftware.com/billing-software.html#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://argunsoftware.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Billing Software",
+            "item": "https://argunsoftware.com/billing-software.html"
+          }
+        ]
       }
     ]
   }

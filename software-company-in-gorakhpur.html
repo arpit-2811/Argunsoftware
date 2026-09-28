@@ -45,115 +45,201 @@
   <!-- Stylesheet -->
   <link rel="stylesheet" href="styles.css?v=2.1">
 
-  <!-- Organization & Local Business Schema -->
+  <!-- Pillar 3: Unified Knowledge Graph & Regional Entity Authority Schema (@graph) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": ["LocalBusiness", "ProfessionalService"],
-    "name": "Argun Software Solutions - Gorakhpur",
-    "alternateName": ["Argun Software Gorakhpur", "Best Software Company in Gorakhpur", "Software Solutions Gorakhpur"],
-    "url": "https://argunsoftware.com/software-company-in-gorakhpur.html",
-    "logo": "https://argunsoftware.com/argunlogo.jpeg",
-    "image": "https://argunsoftware.com/argunlogo.jpeg",
-    "description": "Looking for the best software company in Gorakhpur? Argun Software Solutions builds custom hospital platforms, GST billing software, auto garage management systems, and enterprise web applications in Gorakhpur.",
-    "telephone": "+91-7091276451",
-    "email": "argunsoftwaresolution@gmail.com",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Gorakhpur",
-      "addressRegion": "Uttar Pradesh",
-      "addressCountry": "IN"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 26.7606,
-      "longitude": 83.3732
-    },
-    "areaServed": [
+    "@graph": [
       {
-        "@type": "City",
-        "name": "Gorakhpur"
+        "@type": ["LocalBusiness", "ProfessionalService"],
+        "@id": "https://argunsoftware.com/software-company-in-gorakhpur.html#localbusiness",
+        "name": "Argun Software Solutions - Gorakhpur",
+        "alternateName": ["Argun Software Gorakhpur", "Best Software Company in Gorakhpur", "Software Solutions Gorakhpur"],
+        "url": "https://argunsoftware.com/software-company-in-gorakhpur.html",
+        "logo": "https://argunsoftware.com/argunlogo.jpeg",
+        "image": "https://argunsoftware.com/argunlogo.jpeg",
+        "description": "Looking for the best software company in Gorakhpur? Argun Software Solutions builds custom hospital platforms, GST billing software, auto garage management systems, and enterprise web applications in Gorakhpur.",
+        "telephone": "+91-7091276451",
+        "email": "argunsoftwaresolution@gmail.com",
+        "parentOrganization": {
+          "@type": "Organization",
+          "@id": "https://argunsoftware.com/#organization",
+          "name": "Argun Software Solutions",
+          "url": "https://argunsoftware.com/"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Gorakhpur",
+          "addressRegion": "Uttar Pradesh",
+          "addressCountry": "IN"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 26.7606,
+          "longitude": 83.3732
+        },
+        "hasMap": "https://www.google.com/maps/search/?api=1&query=Argun+Software+Solutions+Gopalganj+Bihar",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-7091276451",
+          "contactType": "sales and technical support",
+          "email": "argunsoftwaresolution@gmail.com",
+          "areaServed": "Gorakhpur",
+          "availableLanguage": ["English", "Hindi", "Bhojpuri"]
+        },
+        "areaServed": [
+          {
+            "@type": "City",
+            "name": "Gorakhpur",
+            "sameAs": ["https://en.wikipedia.org/wiki/Gorakhpur","https://www.wikidata.org/wiki/Q200019"]
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Uttar Pradesh",
+            "sameAs": ["https://en.wikipedia.org/wiki/Uttar_Pradesh","https://www.wikidata.org/wiki/Q1498"]
+          }
+        ],
+        "knowsAbout": [
+          {
+            "@type": "Thing",
+            "name": "Goods and Services Tax (India) Billing Software",
+            "sameAs": [
+              "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)",
+              "https://www.wikidata.org/wiki/Q5583597"
+            ]
+          },
+          {
+            "@type": "Thing",
+            "name": "Point of Sale (POS) & Retail Invoicing",
+            "sameAs": [
+              "https://en.wikipedia.org/wiki/Point_of_sale",
+              "https://www.wikidata.org/wiki/Q216635"
+            ]
+          },
+          {
+            "@type": "Thing",
+            "name": "Enterprise Resource Planning (ERP)",
+            "sameAs": [
+              "https://en.wikipedia.org/wiki/Enterprise_resource_planning",
+              "https://www.wikidata.org/wiki/Q131508"
+            ]
+          },
+          {
+            "@type": "Thing",
+            "name": "Custom Software Development",
+            "sameAs": [
+              "https://en.wikipedia.org/wiki/Software_development",
+              "https://www.wikidata.org/wiki/Q638608"
+            ]
+          }
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Argun Software Products Available in Gorakhpur",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "SoftwareApplication",
+                "name": "Argun Billing Software",
+                "url": "https://argunsoftware.com/billing-software.html"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "SoftwareApplication",
+                "name": "Argun Garage Management Software",
+                "url": "https://argunsoftware.com/garage-management-software.html"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "SoftwareApplication",
+                "name": "Argun Loan Management System",
+                "url": "https://argunsoftware.com/loan-management-system.html"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "SoftwareApplication",
+                "name": "Argun CA Firm Management System",
+                "url": "https://argunsoftware.com/ca-firm-management-system.html"
+              }
+            }
+          ]
+        },
+        "priceRange": "₹₹",
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+            "opens": "09:00",
+            "closes": "20:00"
+          }
+        ],
+        "sameAs": [
+          "https://youtube.com/@argunsoftware?si=oOKnpo4390Ulo7r4",
+          "https://www.instagram.com/argunsoftware?igsh=Z3NxMG5yejR0YmR3"
+        ]
       },
       {
-        "@type": "AdministrativeArea",
-        "name": "Uttar Pradesh"
-      }
-    ],
-    "priceRange": "₹₹",
-    "openingHoursSpecification": [
-      {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-        "opens": "09:00",
-        "closes": "20:00"
-      }
-    ],
-    "sameAs": [
-      "https://youtube.com/@argunsoftware?si=oOKnpo4390Ulo7r4",
-      "https://www.instagram.com/argunsoftware?igsh=Z3NxMG5yejR0YmR3"
-    ]
-  }
-  </script>
-
-  <!-- Breadcrumb Schema -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://argunsoftware.com/"
+        "@type": "BreadcrumbList",
+        "@id": "https://argunsoftware.com/software-company-in-gorakhpur.html#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://argunsoftware.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Software Company in Gorakhpur",
+            "item": "https://argunsoftware.com/software-company-in-gorakhpur.html"
+          }
+        ]
       },
       {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Software Company in Gorakhpur",
-        "item": "https://argunsoftware.com/software-company-in-gorakhpur.html"
-      }
-    ]
-  }
-  </script>
-
-  <!-- FAQ Schema -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "Which is the best software company in Gorakhpur?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Argun Software Solutions is widely recognized as the leading software development company and IT partner serving Gorakhpur, Uttar Pradesh. Argun Software builds custom business software, GST billing systems, auto garage software, loan management platforms, and commercial websites with personalized on-site installation and staff training in Gorakhpur."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Does Argun Software provide on-site support and training in Gorakhpur?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes. Argun Software Solutions provides direct on-site software installation, staff training, and continuous technical support for businesses across Golghar, Medical College Road, Bank Road, Asuran Chowk, GIDA Industrial Area, Mohaddipur, and Rustampur and surrounding areas."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What software products does Argun Software offer in Gorakhpur?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Argun Software Solutions offers four specialized products: Argun Billing Software for retail & wholesale stores, Argun Garage Management Software for auto workshops and insurance bodyshops, Argun Loan Management System for lenders and micro-finance societies, and Argun CA Firm Management System for Chartered Accountants, along with custom website development."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How can I book a free software demo in Gorakhpur?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "You can request a free demo by calling or messaging our direct support line at +91 70912 76451. Our technical engineers will arrange an in-person walkthrough at your business in Gorakhpur or a screen-share session."
-        }
+        "@type": "FAQPage",
+        "@id": "https://argunsoftware.com/software-company-in-gorakhpur.html#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Which is the best software company in Gorakhpur?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Argun Software Solutions is widely recognized as the leading software development company and IT partner serving Gorakhpur, Uttar Pradesh. Argun Software builds custom business software, GST billing systems, auto garage software, loan management platforms, and commercial websites with personalized on-site installation and staff training in Gorakhpur."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Argun Software provide on-site support and training in Gorakhpur?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Argun Software Solutions provides direct on-site software installation, staff training, and continuous technical support for businesses across Golghar, Medical College Road, Bank Road, Asuran Chowk, GIDA Industrial Area, Mohaddipur, and Rustampur and surrounding areas."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What software products does Argun Software offer in Gorakhpur?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Argun Software Solutions offers four specialized products: Argun Billing Software for retail & wholesale stores, Argun Garage Management Software for auto workshops and insurance bodyshops, Argun Loan Management System for lenders and micro-finance societies, and Argun CA Firm Management System for Chartered Accountants, along with custom website development."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How can I book a free software demo in Gorakhpur?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "You can request a free demo by calling or messaging our direct support line at +91 70912 76451. Our technical engineers will arrange an in-person walkthrough at your business in Gorakhpur or a screen-share session."
+            }
+          }
+        ]
       }
     ]
   }

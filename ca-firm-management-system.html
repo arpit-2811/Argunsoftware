@@ -28,43 +28,88 @@
   <meta name="twitter:description" content="Automate client tasks, GST/ITR compliance calendars, document collection, and billing for CA firms.">
   <meta name="twitter:image" content="https://argunsoftware.com/argunlogo.jpeg">
 
-  <!-- Schema.org JSON-LD -->
+  <!-- Pillar 3: Knowledge Graph & SoftwareApplication Entity Schema -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "Argun CA Firm Management System",
-    "alternateName": ["Argun Practice Manager", "Argun CA Manager"],
-    "operatingSystem": "Web-Based",
-    "applicationCategory": "BusinessApplication",
-    "description": "Client management, task allocation, document vault, WhatsApp automation, and statutory compliance tracking software for CA firms in India.",
-    "url": "https://argunsoftware.com/ca-firm-management-system.html",
-    "image": "https://argunsoftware.com/argunlogo.jpeg",
-    "publisher": {
-      "@type": "Organization",
-      "name": "Argun Software Solutions",
-      "url": "https://argunsoftware.com/"
-    }
-  }
-  </script>
-
-  <!-- Breadcrumb Schema -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
+    "@graph": [
       {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://argunsoftware.com/"
+        "@type": "SoftwareApplication",
+        "@id": "https://argunsoftware.com/ca-firm-management-system.html#software",
+        "name": "Argun CA Firm Management System",
+        "alternateName": ["Argun Practice Manager", "Argun CA Manager", "Argun Tax & Audit Office Suite"],
+        "operatingSystem": "Web-Based Cloud",
+        "applicationCategory": "BusinessApplication",
+        "applicationSubCategory": "CA Practice Management & Statutory Compliance Software",
+        "description": "Client management, article clerk task allocation, encrypted document vault, WhatsApp document collection, and statutory compliance tracking software for Chartered Accountants and tax practitioners in India.",
+        "url": "https://argunsoftware.com/ca-firm-management-system.html",
+        "image": "https://argunsoftware.com/argunlogo.jpeg",
+        "featureList": [
+          "Statutory Compliance Calendar for GST, ITR, TDS, ROC & Tax Audit Deadlines",
+          "Encrypted Client Document Vault Organized by Assessment Year",
+          "Article Clerk & Staff Task Allocation with Timesheet Tracking",
+          "Automated Client Document Request Reminders via WhatsApp",
+          "Retainer & Professional Fee Billing with Outstanding Dues Ledger"
+        ],
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Chartered Accountant",
+            "sameAs": [
+              "https://en.wikipedia.org/wiki/Chartered_Accountant",
+              "https://www.wikidata.org/wiki/Q1067794"
+            ]
+          },
+          {
+            "@type": "Thing",
+            "name": "Accounting software",
+            "sameAs": [
+              "https://en.wikipedia.org/wiki/Accounting_software",
+              "https://www.wikidata.org/wiki/Q339062"
+            ]
+          },
+          {
+            "@type": "Thing",
+            "name": "Goods and Services Tax (India)",
+            "sameAs": [
+              "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)",
+              "https://www.wikidata.org/wiki/Q5583597"
+            ]
+          }
+        ],
+        "offers": {
+          "@type": "Offer",
+          "availability": "https://schema.org/InStock",
+          "priceCurrency": "INR",
+          "seller": {
+            "@id": "https://argunsoftware.com/#organization"
+          }
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://argunsoftware.com/#organization",
+          "name": "Argun Software Solutions",
+          "url": "https://argunsoftware.com/",
+          "telephone": "+91-7091276451"
+        }
       },
       {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "CA Firm Management System",
-        "item": "https://argunsoftware.com/ca-firm-management-system.html"
+        "@type": "BreadcrumbList",
+        "@id": "https://argunsoftware.com/ca-firm-management-system.html#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://argunsoftware.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "CA Firm Management System",
+            "item": "https://argunsoftware.com/ca-firm-management-system.html"
+          }
+        ]
       }
     ]
   }
