@@ -1145,6 +1145,10 @@ button, input, textarea {
   background-color: #E1306C;
 }
 
+.social-icon-btn.maps:hover {
+  background-color: #34A853;
+}
+
 .footer-bottom {
   padding-top: 1.5rem;
   display: flex;
