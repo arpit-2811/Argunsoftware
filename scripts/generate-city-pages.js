@@ -1163,7 +1163,7 @@ function generateCityHTML(city) {
   </div>
 
   <!-- Scripts -->
-  <script src="script.js"></script>
+  <script src="script.js?v=2.0"></script>
 </body>
 </html>
 `;
