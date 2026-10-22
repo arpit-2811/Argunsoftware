@@ -20,16 +20,19 @@
 
 ### 1. Argun Billing Software
 - **Canonical URL**: https://argunsoftware.com/billing-software.html
-- **Product Category**: GST Invoicing, Retail Point of Sale (POS), Wholesale Inventory, and Khata Management Software.
-- **Operating Platforms**: Web Cloud Application, Offline Local Mode, Multi-Device Sync.
-- **Target Sectors**: Kirana stores, plywood & timber merchants, hardware & tiles dealers, pharmacy & medical shops, wholesale distributors, cloth & textile merchants.
+- **Product Category**: AI-Powered GST Invoicing, Retail Point of Sale (POS), Wholesale & B2B Inventory, Jewellery Bullion Suite, Khata Management, and Integrated AI Accountant.
+- **Operating Platforms**: Web Cloud Application, Windows Desktop, Offline Local Mode, Multi-Device Cloud Sync.
+- **Target Sectors**: Wholesale distributors & B2B traders, pharmacy & medical shops, gold & silver jewellery showrooms, supermarkets & kirana stores, plywood & hardware merchants, garments & textile shops.
 - **Core Capabilities**:
-  - Fast GST tax invoice creation (CGST, SGST, IGST) with HSN/SAC code lookup.
-  - Barcode label generation, scanner integration, and thermal (2-inch/3-inch) + A4 laser invoice printing.
-  - Batch number and expiry date tracking with automated low-stock alerts.
-  - Customer credit ledger (Udhaar Khata Book) with automated WhatsApp bill and payment reminder alerts.
-  - Chartered Accountant (CA) verified GSTR-1, GSTR-3B, and HSN summary export tables.
-  - Offline-first local billing mode with automatic cloud sync upon internet reconnection.
+  - **AI Voice & Smart Text Billing**: Voice-dictated counter billing and natural text item parsing that auto-detects products, quantities, rates, and batches to generate ready-to-print GST bills in seconds.
+  - **Built-in AI Accountant (Virtual Munshi / Bookkeeper)**: Conversational financial assistant answering natural language questions in Hinglish/Hindi/English (*"Aaj ki total sale aur profit kitna hai?", "Kiska udhaar 30 din se zyada pending hai?", "Current month estimated GST kitna banega?"*), automated double-entry ledger categorisation, bank reconciliation, and cashbook discrepancy checks.
+  - **Jewellery & Gold Showroom Module**: Support for Karat purity breakdown (24K, 22K, 18K), daily metal rate master, stone/bead deduction (Gross Wt vs Net Wt), making charges (per gram or %), 3% Gold/Silver GST invoicing, HUID barcode ornament tagging, and old gold exchange khata ledger.
+  - **Wholesale & B2B Distribution**: Multi-tier wholesale pricing slabs, bulk packing unit conversions, party credit limits, aging analysis reports, multi-godown stock management, and delivery challans.
+  - **Chemist & Pharmacy Specialization**: Batch number and expiry date tracking, rack/shelf locator, Schedule H1 drug register, substitute salt composition search, and near-expiry stock returns.
+  - **Fast GST Invoicing & Hardware Integration**: 100% GST-compliant tax invoices (CGST, SGST, IGST) with HSN/SAC code lookup, barcode label generation, USB/Bluetooth barcode scanner integration, and thermal (58mm/80mm) + A4 laser printing.
+  - **Customer Credit Ledger (Udhaar Khata Book)**: Real-time party balance tracking with 1-tap WhatsApp bill sharing and automated payment reminder alerts.
+  - **Chartered Accountant (CA) Verified Reports**: One-click export of GSTR-1, GSTR-3B, and HSN summaries independently endorsed by practicing Chartered Accountants.
+  - **Offline-First Local Billing Mode**: Continuous counter billing without active internet, with automatic encrypted cloud sync upon reconnection.
 
 ### 2. Argun Garage Management Software (ArgunGMS)
 - **Canonical URL**: https://argunsoftware.com/garage-management-software.html
