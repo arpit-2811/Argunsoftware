@@ -130,6 +130,14 @@
 - **Architecture & Implementation**: Built using modern component architecture, GPU-accelerated UI transitions, technical SEO structure, and edge cloud hosting.
 - **Measurable Outcome**: Delivered a high-speed digital agency storefront with sub-second interactivity.
 
+### Case Study 9: Chandtara Infra Private Limited (Gopalganj, Bihar)
+- **Live Production URL**: https://chandtarainfrapvtltd.in/
+- **Sector**: Civil Engineering, Heavy Infrastructure & Renewable Solar Energy
+- **Corporate Identity**: CIN: U42209BR2026PTC088206 | GSTIN: 10AAOCC2572J1AP (Govt. Registered Pvt. Ltd. Company, Bihar)
+- **Client Problem**: Required an authoritative, bilingual (Hindi & English) corporate web platform to showcase its statutory MCA incorporation, 9+ civil construction and solar energy verticals, MOA capabilities, and leadership profiles for government tenders and commercial infrastructure contracts.
+- **Architecture & Implementation**: Engineered a lightweight, bilingual web architecture with real-time Hindi/English language toggling, structured corporate governance directories, legal/MCA compliance badges (CIN, GSTIN, PAN), 7-step execution process showcase, direct WhatsApp inquiry routing, and edge cloud CDN deployment.
+- **Measurable Outcome**: Established 24/7 verifiable corporate digital credentials for tender evaluation boards, government authorities, and infrastructure developers across Bihar and Eastern India.
+
 ---
 
 ## Regional On-Site Deployment & Support Coverage (17 Districts Served from Gopalganj HQ)
