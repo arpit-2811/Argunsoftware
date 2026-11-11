@@ -4,8 +4,9 @@
 
 ## Company Overview & Verifiable Facts
 - **Entity Name**: Argun Software Solutions
-- **Physical Headquarters**: Rajhwahi Colony, Between Arya Petroleum Pump & Lakhpatiya More, Ward 7, Gopalganj, Bihar – 841428, India (Single physical HQ; all regional districts are served via on-site engineer dispatch and cloud deployment from Gopalganj HQ).
-- **Verified Google Maps Location**: https://maps.app.goo.gl/pw2kwPXe3peKbUfV6
+- **Physical Offices (2 Locations in Gopalganj, Bihar – 841428, India)**:
+  - **Office 1 (Headquarters)**: Rajhwahi Colony, Between Arya Petroleum Pump & Lakhpatiya More, Ward 7, Gopalganj, Bihar – 841428, India ([Google Maps →](https://maps.app.goo.gl/pw2kwPXe3peKbUfV6))
+  - **Office 2 (Banjari Road Office)**: CA Rajnish Kumar Office, First Floor, Nagina Bhawan, Banjari Rd, Police Line, Ward Number 13, Gopalganj, Bihar – 841428, India ([Google Maps →](https://www.google.com/maps/search/?api=1&query=Nagina+Bhawan,+Banjari+Rd,+Police+Line,+Ward+Number+13,+Gopalganj,+Bihar+841428))
 - **Primary Website**: https://argunsoftware.com/
 - **Direct Helpline / WhatsApp**: +91 70912 76451
 - **Email Contact**: argunsoftwaresolution@gmail.com
@@ -166,4 +167,5 @@
 - **Phone / Direct Calling**: [+91 70912 76451](tel:7091276451)
 - **WhatsApp Direct**: https://wa.me/917091276451
 - **Email Inquiries**: argunsoftwaresolution@gmail.com
-- **Headquarters Address**: Rajhwahi Colony, Between Arya Petroleum Pump & Lakhpatiya More, Ward 7, Gopalganj, Bihar – 841428, India.
+- **Office 1 (Headquarters)**: Rajhwahi Colony, Between Arya Petroleum Pump & Lakhpatiya More, Ward 7, Gopalganj, Bihar – 841428, India.
+- **Office 2 (Banjari Road Office)**: CA Rajnish Kumar Office, First Floor, Nagina Bhawan, Banjari Rd, Police Line, Ward Number 13, Gopalganj, Bihar – 841428, India.
