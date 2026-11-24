@@ -1,7 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
-  <rect width="100" height="100" rx="16" fill="#0B1F44"/>
-  <!-- Stylized A -->
-  <path d="M 28 82 L 50 18 L 72 82 L 58 82 L 50 56 L 42 82 Z" fill="#FFFFFF"/>
-  <!-- Electric Blue Swoosh -->
-  <path d="M 16 68 C 35 48, 65 48, 84 68 C 65 54, 35 54, 16 68 Z" fill="#1E63D6"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <rect width="128" height="128" rx="28" fill="#07233F"/>
+  <!-- Stylized Argun Compass / Circuit A Mark -->
+  <!-- Left Teal Leg -->
+  <line x1="64" y1="22" x2="26" y2="98" stroke="#138F99" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="26" cy="98" r="9" fill="#07233F" stroke="#138F99" stroke-width="6"/>
+  <!-- Right Navy/White Leg -->
+  <line x1="64" y1="22" x2="102" y2="98" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="102" cy="98" r="9" fill="#07233F" stroke="#FFFFFF" stroke-width="6"/>
+  <!-- Orange Crossbar Node -->
+  <line x1="45" y1="62" x2="78" y2="62" stroke="#EA580C" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="78" cy="62" r="7" fill="#07233F" stroke="#EA580C" stroke-width="5"/>
+  <!-- Apex Join -->
+  <circle cx="64" cy="22" r="6" fill="#138F99"/>
 </svg>
